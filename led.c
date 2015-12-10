@@ -21,6 +21,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
 void led_set(uint8_t usb_led) {
+    // PTC1: LCD Backlight Red(0:on/1:off)
     GPIOC->PDDR |= (1<<1);
     PORTC->PCR[1] |= PORTx_PCRn_DSE | PORTx_PCRn_MUX(1);
     if (usb_led & (1<<USB_LED_CAPS_LOCK)) {
