@@ -1,0 +1,24 @@
+TMK/chibios for Input Club Infinity Ergodox
+===========================================
+2015/12/10 Jun Wako
+
+This is unofficial keyobard firmware for Infinity Ergodox. 
+
+    http://input.club/devices/infinity-ergodox
+
+It is based on flabbergast's TMK/chibios See this.
+
+    https://github.com/flabbergast/tmk_keyboard/tree/chibios/tmk_core/protocol/chibios
+
+
+Build
+-----
+$ git clone https://github.com/tmk/infinity_ergodox.git
+$ cd infinity_ergodox
+$ git submodule update --init --recursive
+$ make
+
+
+Upload
+------
+$ make program
