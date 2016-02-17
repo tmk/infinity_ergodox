@@ -1,6 +1,6 @@
 TMK/chibios for Input Club Infinity Ergodox
 ===========================================
-2015/12/10 Jun Wako
+2016/02/17 Jun Wako
 
 This is unofficial keyobard firmware for Infinity Ergodox. 
 
@@ -9,6 +9,14 @@ This is unofficial keyobard firmware for Infinity Ergodox.
 It is based on flabbergast's TMK/chibios See this.
 
     https://github.com/flabbergast/tmk_keyboard/tree/chibios/tmk_core/protocol/chibios
+
+
+Limitations
+-----------
+- Support only one hand(left) currently
+- No plant to add support for LED things
+- No plant to add support for LCD things
+
 
 
 Build
